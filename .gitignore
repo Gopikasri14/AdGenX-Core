@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# AdGenX local/generated files
+
+# Generated JSON outputs
+outputs/*.json
+outputs/audio/*
+
+# Local/private sample audio
+assets/sample_audio/*
+!assets/sample_audio/.gitkeep
+
+# Whisper model files
+*.pt
+
+# VS Code temporary files
+.vscode/
